@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<!-- 512 frame size for kx -->
+<devices syncTrigger="driver" mixerMode="software" monitorMode="hardware" dataFormat="float" 
+         latencyInput="1" latencyOutput="2">
+   <deviceGroup>
+      <deviceJack mappingMode="active" mixDown="stereo" mode="duplex"/>
+      <deviceSerial mode="duplex"/>
+<!--   
+      <deviceMIDIWDM deviceName="1:EDIROL PCR 1" mode="input"/>
+      <deviceAudioASIO monitorMode="hardware" deviceName="kX ASIO" mode="duplex" mappingMode="normal"/>
+
+      <deviceMIDIParPort port="888" invert=".####..." channel="16" 
+                         note="0 0 0 63 127 62 60 61" debounce="100"/>
+      <deviceMIDIKx mode="output" trigger="16:8000 17:8000" drumNotes="36 40 44 46" 
+                    sampleChan="16" samplePatch="38 39"
+                    drumSet0="121 123 125" drumSet1="122 124 126" 
+                    period="128" idlePeriod="1440" triggerLevel="3000" peakVariance="0.85"/>
+                    
+      <deviceMIDIWDM deviceName="kX Synth SB0350 10k2 [dc00]" mode="output" filterControl="7 10 11"/>
+      <deviceMIDIWDM deviceName="kX Control SB0350 10k2 [dc00]" mode="output"/>      
+      <deviceMIDIWDM deviceName="RPx400 USB MIDI" mode="output" mappingMode="activePatch"/>
+      <deviceMIDIWDM deviceName="RPx400 USB MIDI" mode="input"/>
+      <deviceMIDIWDM deviceName="MIDI Yoke NT:  2" mode="output"/>
+-->
+   </deviceGroup>
+</devices>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<svg>
+   <xul:vbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="mixerMode"/>
+         <xul:menulist binding="@mixerMode"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="monitorMode"/>
+         <xul:menulist binding="@monitorMode"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="mixDown"/>
+         <xul:menulist binding="@mixDown"/>
+      </xul:hbox>
+    </xul:vbox>
+</svg>

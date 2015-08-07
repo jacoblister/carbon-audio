@@ -1,0 +1,141 @@
+<svg bgcolor="lightsteelblue">
+   <defs>
+      <symbol id="recpushbutton">
+             <rect fill="lightgrey" stroke="none" x="0" y="0" width="46" height="20">
+                <animateColor attributeName="fill" calcMode="discrete" from="lightgrey" to="red" begin="0" dur="1" binding="."/>
+             </rect>
+             <g stroke="white">
+                <animateColor attributeName="stroke" calcMode="discrete" from="white" to="grey" begin="0" dur="1" binding="."/>
+                <line x1="0" y1="0" x2="45" y2="0"/>
+                <line x1="0" y1="0" x2="0" y2="19"/>
+             </g>
+             <g stroke="grey">
+                <animateColor attributeName="stroke" calcMode="discrete" from="grey" to="white" begin="0" dur="1" binding="."/>
+   	        <line x1="46" y1="0" x2="46" y2="20"/>
+                <line x1="0" y1="20" x2="46" y2="20"/>
+             </g>
+      </symbol>
+      <symbol id="activepushbutton">
+         <rect fill="lightgrey" stroke="none" x="0" y="0" width="46" height="20">
+            <animateColor attributeName="fill" calcMode="discrete" from="lightgrey" to="red" begin="0" dur="1" binding=".=$i"/>
+         </rect>
+         <g stroke="white">
+             <animateColor attributeName="stroke" calcMode="discrete" from="white" to="grey" begin="0" dur="1" binding=".=$i"/>
+             <line x1="0" y1="0" x2="45" y2="0"/>
+             <line x1="0" y1="0" x2="0" y2="19"/>
+         </g>
+         <g stroke="grey">
+            <animateColor attributeName="stroke" calcMode="discrete" from="grey" to="white" begin="0" dur="1" binding=".=$i"/>
+            <line x1="46" y1="0" x2="46" y2="20"/>
+            <line x1="0" y1="20" x2="46" y2="20"/>
+         </g>
+      </symbol>
+
+      <symbol id="activeled">
+         <rect fill="lightgrey" stroke="none" x="5" y="5" width="10" height="10">
+            <animateColor attributeName="fill" calcMode="discrete" from="darkred" to="red" begin="0" dur="1" binding="."/>
+         </rect>
+         <g stroke="grey">
+            <line x1="5" y1="5" x2="14" y2="5"/>
+            <line x1="5" y1="5" x2="5" y2="14"/>
+         </g>
+         <g stroke="white">
+   	      <line x1="15" y1="5" x2="15" y2="15"/>
+            <line x1="5" y1="15" x2="15" y2="15"/>
+         </g>
+         <animateInputEvent binding="." eventType="click"/>
+      </symbol>
+      <symbol id="spushbutton">
+         <rect fill="lightgrey" stroke="none" x="2" y="2" width="10" height="16">
+            <animateColor attributeName="fill" calcMode="discrete" from="lightgrey" to="gold" begin="0" dur="1" binding="."/>
+         </rect>
+         <g stroke="white">
+            <animateColor attributeName="stroke" calcMode="discrete" from="white" to="grey" begin="0" dur="1" binding="."/>
+            <line x1="2" y1="2" x2="11" y2="2"/>
+            <line x1="2" y1="2" x2="2" y2="17"/>
+         </g>
+         <g stroke="grey">
+            <animateColor attributeName="stroke" calcMode="discrete" from="grey" to="white" begin="0" dur="1" binding="."/>
+            <line x1="12" y1="2" x2="12" y2="18"/>
+            <line x1="2" y1="18" x2="12" y2="18"/>
+         </g>
+         <animateInputEvent binding="." eventType="click"/>
+      </symbol>
+
+      <symbol id="channel">
+         <rect stroke="none" fill="lightsteelblue" x="-2" y="0" width="60" height="430"/>
+         <polyline stroke="lavender" fill="none" points="-2,428 -2,0 57,0"/>
+         <polyline stroke="steelblue" fill="none" points="-1,429 58,429 58,-1"/>
+         <rect transform="translate(18,4)" stroke="none" fill="black" x="4" y="7" width="6" height="6"/>
+         <ellipse transform="translate(30,4)" stroke="none" fill="black" cx="7" cy="10" rx="3" ry="3"/>
+         <polygon transform="translate(42,4)" stroke="none" fill="black" points="4,7 10,10 4,13"/>
+
+         <!-- array not working here, why -->
+         <use transform="translate(0,25)" xlink:href="#activeled" symbolPath="samplerBank[0]/@active"/>
+         <use transform="translate(0,50)" xlink:href="#activeled" symbolPath="samplerBank[1]/@active"/>
+         <use transform="translate(0,75)" xlink:href="#activeled" symbolPath="samplerBank[2]/@active"/>
+         <use transform="translate(0,100)" xlink:href="#activeled" symbolPath="samplerBank[3]/@active"/>
+         <use transform="translate(0,125)" xlink:href="#activeled" symbolPath="samplerBank[4]/@active"/>
+         <use transform="translate(0,150)" xlink:href="#activeled" symbolPath="samplerBank[5]/@active"/>
+         <use transform="translate(0,175)" xlink:href="#activeled" symbolPath="samplerBank[6]/@active"/>
+         <use transform="translate(0,200)" xlink:href="#activeled" symbolPath="samplerBank[7]/@active"/>
+         <use transform="translate(0,225)" xlink:href="#activeled" symbolPath="samplerBank[8]/@active"/>
+         <use transform="translate(0,250)" xlink:href="#activeled" symbolPath="samplerBank[9]/@active"/>
+
+         <use transform="translate(18,25)" xlink:href="#spushbutton" symbolPath="samplerBank[0]/@stop"/>
+         <use transform="translate(18,50)" xlink:href="#spushbutton" symbolPath="samplerBank[1]/@stop"/>
+         <use transform="translate(18,75)" xlink:href="#spushbutton" symbolPath="samplerBank[2]/@stop"/>
+         <use transform="translate(18,100)" xlink:href="#spushbutton" symbolPath="samplerBank[3]/@stop"/>
+         <use transform="translate(18,125)" xlink:href="#spushbutton" symbolPath="samplerBank[4]/@stop"/>
+         <use transform="translate(18,150)" xlink:href="#spushbutton" symbolPath="samplerBank[5]/@stop"/>
+         <use transform="translate(18,175)" xlink:href="#spushbutton" symbolPath="samplerBank[6]/@stop"/>
+         <use transform="translate(18,200)" xlink:href="#spushbutton" symbolPath="samplerBank[7]/@stop"/>
+         <use transform="translate(18,225)" xlink:href="#spushbutton" symbolPath="samplerBank[8]/@stop"/>
+         <use transform="translate(18,250)" xlink:href="#spushbutton" symbolPath="samplerBank[9]/@stop"/>
+
+         <use transform="translate(30,25)" xlink:href="#spushbutton" symbolPath="samplerBank[0]/@record"/>
+         <use transform="translate(30,50)" xlink:href="#spushbutton" symbolPath="samplerBank[1]/@record"/>
+         <use transform="translate(30,75)" xlink:href="#spushbutton" symbolPath="samplerBank[2]/@record"/>
+         <use transform="translate(30,100)" xlink:href="#spushbutton" symbolPath="samplerBank[3]/@record"/>
+         <use transform="translate(30,125)" xlink:href="#spushbutton" symbolPath="samplerBank[4]/@record"/>
+         <use transform="translate(30,150)" xlink:href="#spushbutton" symbolPath="samplerBank[5]/@record"/>
+         <use transform="translate(30,175)" xlink:href="#spushbutton" symbolPath="samplerBank[6]/@record"/>
+         <use transform="translate(30,200)" xlink:href="#spushbutton" symbolPath="samplerBank[7]/@record"/>
+         <use transform="translate(30,225)" xlink:href="#spushbutton" symbolPath="samplerBank[8]/@record"/>
+         <use transform="translate(30,250)" xlink:href="#spushbutton" symbolPath="samplerBank[9]/@record"/>
+
+         <use transform="translate(42,25)" xlink:href="#spushbutton" symbolPath="samplerBank[0]/@play"/>
+         <use transform="translate(42,50)" xlink:href="#spushbutton" symbolPath="samplerBank[1]/@play"/>
+         <use transform="translate(42,75)" xlink:href="#spushbutton" symbolPath="samplerBank[2]/@play"/>
+         <use transform="translate(42,100)" xlink:href="#spushbutton" symbolPath="samplerBank[3]/@play"/>
+         <use transform="translate(42,125)" xlink:href="#spushbutton" symbolPath="samplerBank[4]/@play"/>
+         <use transform="translate(42,150)" xlink:href="#spushbutton" symbolPath="samplerBank[5]/@play"/>
+         <use transform="translate(42,175)" xlink:href="#spushbutton" symbolPath="samplerBank[6]/@play"/>
+         <use transform="translate(42,200)" xlink:href="#spushbutton" symbolPath="samplerBank[7]/@play"/>
+         <use transform="translate(42,225)" xlink:href="#spushbutton" symbolPath="samplerBank[8]/@play"/>
+         <use transform="translate(42,250)" xlink:href="#spushbutton" symbolPath="samplerBank[9]/@play"/>
+
+         <g>
+            <animateInputEvent binding="/carbon/sequencer/xmidi/track[$i]/@recEnable=INVERT" eventType="click"/>
+            <use xlink:href="#recpushbutton" transform="translate(5,325)" symbolPath="/carbon/sequencer/xmidi/track[$i]/@recEnable"/>
+            <text font-size="12" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="28" y="335">Record</text>
+         </g>
+         <text font-size="12" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="28" y="360">
+            <bind attributeName="text" binding="/carbon/sequencer/xmidi/track[$i]/@trackName"/>
+         </text>
+
+         <g>
+            <animateInputEvent binding="/carbon/mixer/@active=$i" eventType="click"/>
+            <use xlink:href="#activepushbutton" transform="translate(5,370)" symbolPath="/carbon/mixer/@active"/>
+            <text font-size="12" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="28" y="380">Active</text>
+         </g>
+         <g>
+            <animateInputEvent binding="/carbon/mixer/@activeB=$i" eventType="click"/>
+            <use xlink:href="#activepushbutton" transform="translate(5,400)" symbolPath="/carbon/mixer/@activeB"/>
+            <text font-size="12" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="28" y="410">Active</text>
+         </g>
+      </symbol>
+   </defs>
+
+   <array elements="16" spacingX="62" xlink:href="#channel" symbolPath="/carbon/sampler/sampChannel[$i]"/>
+</svg>

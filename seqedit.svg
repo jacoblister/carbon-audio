@@ -1,0 +1,60 @@
+<svg preserveAspectRatio="oneToOne" bgcolor="lightgrey">
+   <xul:vbox>
+      <xul:hbox height="22">
+         <xul:togglebutton label="S" width="20" binding="/carbon/sequencer/seqedit[0]/@select"/>
+         <xul:togglebutton label="D" width="20" binding="/carbon/sequencer/seqedit[0]/@draw"/>         
+         <xul:hbox width="40"/>                  
+         <svg:seqtime bgcolor="none"/>
+      </xul:hbox>
+      <xul:hbox>
+         <svg width="80">
+<!--         
+            <defs>
+               <symbol id="track">
+                  <text font-size="12" font-family="Arial" x="0" y="0" dominant-baseline="text-top">Track 0
+                     <bind attributeName="text" binding="@trackName"/>
+                 </text>
+               </symbol>
+            </defs>
+            
+            <array elements="16" spacingY="16" xlink:href="#track" symbolPath="/carbon/sequencer/xmidi/track[$i]"/>
+-->            
+            <defs>
+               <symbol id="track">
+                  <animateInputSlider binding="@level" min="0" max="127" orient="horizontal"/>
+                  <rect fill="blue" x="10" y="1" width="60" height="14">
+                     <animate attributeName="width" from="0" to="60" begin="0" dur="128" binding="@level"/>
+                  </rect>
+                  <text font-size="12" font-family="Arial" x="40" y="1" text-anchor="middle" dominant-baseline="text-before-edge">0
+                     <bind attributeName="text" binding="@level"/>
+                  </text>
+                  <rect stroke="black" fill="none" x="10" y="1" width="60" height="14"/>
+               </symbol>
+            </defs>
+            
+            <g transform="translate(0,0)">
+               <bind attributeName="transform[0].1" binding="neg(/carbon/sequencer/seqedit[0]/@notePos *16)"/>
+               <array elements="16" spacingY="16" index="0" xlink:href="#track" symbolPath="/carbon/mixer/channel[$i]"/>
+            </g>
+         </svg>
+         <svg:seqedit bgcolor="none"/>
+         <xul:vbox width="16">
+            <xul:scrollbar binding="/carbon/sequencer/seqedit[0]/@notePos" orient="vertical" curpos="0" maxpos="64" range="128">      
+               <bind attributeName="maxpos" binding="/carbon/sequencer/seqedit[0]/@noteHidden"/>
+               <bind attributeName="range" binding="/carbon/sequencer/seqedit[0]/@noteMax"/>                         
+            </xul:scrollbar>
+            <xul:button label="I" height="16"/>               
+            <xul:button label="O" height="16"/>         
+         </xul:vbox>
+      </xul:hbox>
+
+      <xul:hbox height="16">
+         <xul:scrollbar binding="/carbon/sequencer/seqedit[0]/@timePos" curpos="0" maxpos="100" range="200" orient="horizontal">
+            <bind attributeName="maxpos" binding="/carbon/sequencer/seqedit[0]/@timeHidden"/>
+            <bind attributeName="range" binding="/carbon/sequencer/seqedit[0]/@timeMax"/>          
+         </xul:scrollbar>
+         <xul:button label="I" binding="/carbon/sequencer/seqedit[0]/@zoom=1" width="16"/>         
+         <xul:button label="O" binding="/carbon/sequencer/seqedit[0]/@zoom=-1" width="16"/>
+      </xul:hbox>
+   </xul:vbox>
+</svg>

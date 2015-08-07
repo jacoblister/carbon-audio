@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<svg min-width="320" min-height="200">
+   <xul:vbox>
+      <xul:hbox height="22">
+         <xul:text width="120" value="time"/>
+         <xul:textbox flex="1" binding="@time"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="120" value="pattern"/>
+         <xul:textbox flex="1" binding="@pattern"/>
+      </xul:hbox>
+   </xul:vbox>
+</svg>

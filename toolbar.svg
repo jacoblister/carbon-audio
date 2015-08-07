@@ -1,0 +1,101 @@
+<svg height="28" bgcolor="lightsteelblue">
+   <defs>
+      <symbol id="pushbutton">
+         <rect fill="lightgrey" stroke="none" x="0" y="0" width="30" height="20">
+            <animateColor attributeName="fill" calcMode="discrete" from="lightgrey" to="gold" begin="0" dur="1" binding="."/>
+         </rect>
+         <g stroke="white">
+            <animateColor attributeName="stroke" calcMode="discrete" from="white" to="grey" begin="0" dur="1" binding="."/>
+            <line x1="0" y1="0" x2="29" y2="0"/>
+            <line x1="0" y1="0" x2="0" y2="19"/>
+         </g>
+         <g stroke="grey">
+            <animateColor attributeName="stroke" calcMode="discrete" from="grey" to="white" begin="0" dur="1" binding="."/>
+            <line x1="30" y1="0" x2="30" y2="20"/>
+            <line x1="0" y1="20" x2="30" y2="20"/>
+         </g>
+      </symbol>
+      <symbol id="pushbuttonred">
+         <rect fill="lightgrey" stroke="none" x="0" y="0" width="30" height="20">
+            <animateColor attributeName="fill" calcMode="discrete" from="lightgrey" to="red" begin="0" dur="1" binding="."/>
+         </rect>
+         <g stroke="white">
+            <animateColor attributeName="stroke" calcMode="discrete" from="white" to="grey" begin="0" dur="1" binding="."/>
+            <line x1="0" y1="0" x2="29" y2="0"/>
+            <line x1="0" y1="0" x2="0" y2="19"/>
+         </g>
+         <g stroke="grey">
+            <animateColor attributeName="stroke" calcMode="discrete" from="grey" to="white" begin="0" dur="1" binding="."/>
+            <line x1="30" y1="0" x2="30" y2="20"/>
+            <line x1="0" y1="20" x2="30" y2="20"/>
+         </g>
+      </symbol>
+   </defs>
+
+   <g transform="translate(4,4)">
+      <animateInputEvent binding="/carbon/sequencer/@stop=TRUE" eventType="click"/>
+      <use xlink:href="#pushbutton" symbolPath="/carbon/sequencer/@stop"/>
+      <rect stroke="none" fill="black" x="10" y="4" width="10" height="10"/>
+   </g>               
+   <g transform="translate(38,4)">
+      <animateInputEvent binding="/carbon/sequencer/@play=TRUE" eventType="click"/>
+      <use xlink:href="#pushbutton" symbolPath="/carbon/sequencer/@play"/>
+      <polygon stroke="none" fill="black" points="10,4 20,9 10,14"/>
+   </g>               
+   <g transform="translate(72,4)">
+      <animateInputEvent binding="/carbon/sequencer/@record=TRUE" eventType="click"/>
+      <use xlink:href="#pushbuttonred" symbolPath="/carbon/sequencer/@record"/>
+      <circle stroke="none" fill="black" cx="15" cy="9" r="5"/>
+   </g>
+   <g transform="translate(106,4)">
+      <animateInputEvent binding="/carbon/sequencer/@rewind=TRUE" eventType="click"/>
+      <use xlink:href="#pushbutton" symbolPath="/carbon/sequencer/@rewind"/>
+      <polygon transform="translate(-4)" stroke="none" fill="black" points="20,4 10,9 20,14"/>
+      <polygon transform="translate(4)" stroke="none" fill="black" points="20,4 10,9 20,14"/>
+   </g>               
+
+   <g transform="translate(100)">
+      <xul:textbox x="70" y="2" width="30" height="22" binding="/carbon/sequencer/@position.0"/>               
+      <text fill="black" font-size="22" font-family="Arial" x="145" y="14" text-anchor="end" dominant-baseline="central">0
+         <bind attributeName="text" binding="/carbon/sequencer/@position.0"/>
+      </text>
+      <text fill="black" font-size="22" font-family="Arial" x="150" y="14" text-anchor="middle" dominant-baseline="central">:</text>
+      <text fill="black" font-size="22" font-family="Arial" x="160" y="14" text-anchor="middle" dominant-baseline="central">0
+         <bind attributeName="text" binding="/carbon/sequencer/@position.1"/>
+      </text>
+      <text fill="black" font-size="22" font-family="Arial" x="170" y="14" text-anchor="middle" dominant-baseline="central">:</text>
+      <text fill="black" font-size="22" font-family="Arial" x="175" y="14" text-anchor="start" dominant-baseline="central">000
+         <bind attributeName="text" binding="/carbon/sequencer/@position.2"/>      
+      </text>
+      <text fill="black" font-size="22" font-family="Arial" x="240" y="14" text-anchor="start" dominant-baseline="central">0000
+         <bind attributeName="text" binding="/carbon/sequencer/@tickRaw"/>      
+      </text>
+
+      <xul:textbox x="360" y="2" width="30" height="22" binding="/carbon/sequencer/@tickRaw"/>
+      <xul:button x="390" y="2" width="20" height="22" label=">"/>
+<!--      
+      <text fill="black" font-size="22" font-family="Arial" x="240" y="14" text-anchor="start" dominant-baseline="central">100.0
+         <bind attributeName="text" binding="/carbon/sequencer/@tempo"/>
+      </text>
+-->      
+
+      <text fill="black" font-size="12" font-family="Arial" x="500" y="9" text-anchor="end" dominant-baseline="central">0
+         <bind attributeName="text" binding="/carbon/sequencer/@numerator"/>
+      </text>
+      <text fill="black" font-size="12" font-family="Arial" x="500" y="18" text-anchor="end" dominant-baseline="central">0
+         <bind attributeName="text" binding="/carbon/sequencer/@denominator"/>
+      </text>
+      <text fill="black" font-size="22" font-family="Arial" x="520" y="14" text-anchor="start" dominant-baseline="central">0
+         <bind attributeName="text" binding="/carbon/sequencer/@tempo"/>
+      </text>
+   </g>      
+   
+   
+<!--
+   <xul:hbox>
+      <xul:button width="80" label="Sequencer"/>
+      <xul:button width="80" label="Sampler"/>
+      <xul:button width="80" label="Mixer"/>      
+   </xul:hbox>
+-->   
+</svg>

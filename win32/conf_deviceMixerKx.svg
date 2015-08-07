@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<svg>
+   <xul:vbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="input"/>
+         <xul:textbox binding="@input"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="dspOutput"/>
+         <xul:textbox binding="@dspOutput"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="dspFx"/>
+         <xul:textbox binding="@dspFx"/>
+      </xul:hbox>
+   </xul:vbox>
+</svg>

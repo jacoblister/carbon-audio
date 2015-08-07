@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<svg min-width="320" min-height="200">
+   <xul:vbox>
+      <xul:hbox height="22">
+         <xul:text width="120" value="time"/>
+         <xul:textbox flex="1" binding="@time"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="120" value="duration"/>
+<!--         
+         <xul:textbox flex="1" binding="@duration" disabled="true">
+            <bind attributeName="disabled" binding="not(@paired)"/>         
+         </xul:textbox>
+-->         
+      <xul:textbox flex="1" binding="@duration"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="120" value="note"/>
+         <xul:textbox flex="1" binding="@note"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="120" value="velocity"/>
+         <xul:textbox flex="1" binding="@velocity"/>
+      </xul:hbox>
+   </xul:vbox>
+</svg>

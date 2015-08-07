@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<svg min-width="640" min-height="400">
+   <xul:tabbox>
+      <xul:tabpanel label="devices">
+         <xul:hbox>
+            <xul:vbox>
+               <!-- Devices Tree goes here -->            
+               <xul:hbox height="30">
+                  <!-- temp until new devices dialog is done -->
+                  <xul:hbox>
+                     <xul:button label="A" binding="@newDeviceAudio">
+                        <bind attributeName="disabled" binding="@newDeviceUnavail"/>                     
+                     </xul:button>
+                     <xul:button label="M" binding="@newDeviceMIDI">
+                        <bind attributeName="disabled" binding="@newDeviceUnavail"/>                                          
+                     </xul:button>                     
+                     <xul:button label="I" binding="@newDeviceMixer">
+                        <bind attributeName="disabled" binding="@newDeviceUnavail"/>                                          
+                     </xul:button>
+                  </xul:hbox>
+               
+                  <xul:button label="New Group" binding="@newGroup">
+                     <bind attributeName="disabled" binding="@newGroupUnavail"/>                  
+                  </xul:button>
+<!--
+                  <xul:button label="New Device" binding="@newDevice">
+                     <bind attributeName="disabled" binding="@newDeviceUnavail"/>
+                  </xul:button>
+-->                  
+                  <xul:button label="Delete" binding="@delete">
+                     <bind attributeName="disabled" binding="@deleteUnavail"/>
+                  </xul:button>
+               </xul:hbox>
+            </xul:vbox>
+            <xul:vbox width="20"/>
+            <xul:vbox>
+               <!-- Device Panel goes here -->
+            </xul:vbox>
+         </xul:hbox>
+      </xul:tabpanel>
+      <xul:tabpanel label="load/save"/>      
+    </xul:tabbox>
+</svg>

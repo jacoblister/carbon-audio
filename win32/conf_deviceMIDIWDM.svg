@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<svg>
+   <xul:vbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="device"/>
+         <xul:textbox binding="@deviceName"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="mode"/>
+         <xul:menulist binding="@mode"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="mappingMode"/>
+         <xul:menulist binding="@mappingMode"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="filterControl"/>
+         <xul:textbox binding="@filterControl"/>
+      </xul:hbox>
+   </xul:vbox>
+</svg>

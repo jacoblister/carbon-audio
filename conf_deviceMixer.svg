@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<svg>
+   <xul:vbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="Device Mixer"/>
+      </xul:hbox>
+   </xul:vbox>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<svg>
+   <xul:vbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="Sampling Rate"/>
+         <xul:textbox binding="@samplingRate"/>
+<!--         
+            <xul:menulist binding="@samplingRate">
+               <xul:menuitem label="22050"/>
+               <xul:menuitem label="44100"/>
+               <xul:menuitem label="48000"/>                  
+            </xul:menulist>
+-->
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="dataFormat"/>
+         <xul:menulist binding="@dataFormat"/>
+      </xul:hbox>
+   </xul:vbox>
+</svg>

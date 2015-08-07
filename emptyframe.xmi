@@ -1,0 +1,712 @@
+<?xml version="1.0"?>
+
+<xmidi>
+	<header type="12" tracks="2" division="120" sampledir="SA_emptyframe"/>
+	<metatrack trackName="" instrument="" channel="0">
+		<!-- bar 0 -->
+		<timeSig time="0" numerator="4" denominator="4"/>
+<!--
+		<tempo time="0" beatLength="869565"/>                
+-->                
+		<tempo time="0" beatLength="400000"/>                
+
+		<!-- bar 18 -->
+		<timeSig time="8640" numerator="7" denominator="4"/>
+		<!-- bar 26 -->
+		<timeSig time="15360" numerator="3" denominator="4"/>
+		<timeSig time="16440" numerator="4" denominator="4"/>
+		<!-- bar 30 -->
+		<timeSig time="16920" numerator="3" denominator="4"/>
+		<timeSig time="18000" numerator="4" denominator="4"/>
+		<!-- bar 34 -->
+		<timeSig time="18480" numerator="3" denominator="4"/>
+		<timeSig time="19560" numerator="4" denominator="4"/>
+		<!-- bar 38 -->
+		<timeSig time="20040" numerator="3" denominator="4"/>
+		<timeSig time="21120" numerator="4" denominator="4"/>
+		<!-- bar 42 -->
+		<timeSig time="21600" numerator="3" denominator="4"/>
+		<timeSig time="22680" numerator="4" denominator="4"/>
+		<!-- bar 46 -->
+		<timeSig time="23160" numerator="3" denominator="4"/>
+		<timeSig time="24240" numerator="4" denominator="4"/>
+		<!-- bar 50 -->
+		<timeSig time="24720" numerator="3" denominator="4"/>
+		<timeSig time="25800" numerator="4" denominator="4"/>
+		<!-- bar 54 -->
+		<timeSig time="26280" numerator="3" denominator="4"/>
+		<timeSig time="27360" numerator="4" denominator="4"/>
+		<!-- bar 58 -->
+		<timeSig time="27840" numerator="3" denominator="4"/>
+		<timeSig time="28920" numerator="4" denominator="4"/>
+		<!-- bar 62 -->
+		<timeSig time="29400" numerator="3" denominator="4"/>
+		<timeSig time="30480" numerator="4" denominator="4"/>
+		<!-- bar 66 -->
+		<timeSig time="30960" numerator="3" denominator="4"/>
+		<timeSig time="32040" numerator="4" denominator="4"/>
+		<!-- bar 70 -->
+		<timeSig time="32520" numerator="3" denominator="4"/>
+		<timeSig time="33600" numerator="4" denominator="4"/>
+		<!-- bar 74 -->
+		<timeSig time="34080" numerator="7" denominator="4"/>
+		<!-- bar 90 -->
+		<timeSig time="47520" numerator="3" denominator="4"/>
+		<timeSig time="48600" numerator="4" denominator="4"/>
+		<!-- bar 94 -->
+		<timeSig time="49080" numerator="3" denominator="4"/>
+		<timeSig time="50160" numerator="4" denominator="4"/>
+		<!-- bar 98 -->
+		<timeSig time="50640" numerator="3" denominator="4"/>
+		<timeSig time="51720" numerator="4" denominator="4"/>
+		<!-- bar 102 -->
+		<timeSig time="52200" numerator="3" denominator="4"/>
+		<!-- bar 106 -->
+		<timeSig time="53760" numerator="7" denominator="4"/>
+		<!-- bar 114 -->
+		<timeSig time="60480" numerator="3" denominator="4"/>
+		<timeSig time="61560" numerator="4" denominator="4"/>
+		<!-- bar 118 -->
+		<timeSig time="62040" numerator="3" denominator="4"/>
+		<timeSig time="63120" numerator="4" denominator="4"/>
+		<!-- bar 122 -->
+		<timeSig time="63600" numerator="3" denominator="4"/>
+		<timeSig time="64680" numerator="4" denominator="4"/>
+		<!-- bar 126 -->
+		<timeSig time="65160" numerator="3" denominator="4"/>
+		<timeSig time="66240" numerator="4" denominator="4"/>
+		<!-- bar 130 -->
+	</metatrack>
+	<track trackName="G Crunch L" instrument="" channel="1">
+		<programChange time="0" number="11"/>
+		<controlChange time="0" control="10" value="32"/>
+		<controlChange time="0" control="7" value="50"/>
+		<controlChange time="0" control="80" value="49"/>
+		<controlChange time="0" control="81" value="90"/>
+		<controlChange time="0" control="82" value="0"/>
+		<controlChange time="0" control="83" value="0"/>
+		<controlChange time="0" control="84" value="0"/>
+		<controlChange time="0" control="85" value="127"/>
+		<controlChange time="0" control="86" value="0"/>
+		<controlChange time="0" control="87" value="0"/>
+		<sample time="2880" bank="0" type="selectA"/>
+		<sample time="2880" bank="0" type="record"/>
+		<sample time="4800" bank="0" type="play"/>
+		<sample time="4800" bank="0" type="stopRecord"/>
+		<sample time="6720" bank="0" type="stopPlay"/>
+		<sample time="6720" bank="0" type="play"/>
+		<sample time="8640" bank="0" type="stopPlay"/>
+		<sample time="68640" bank="1" type="selectA"/>
+		<sample time="68640" bank="1" type="record"/>
+		<sample time="70080" bank="1" type="stopRecord"/>
+	</track>
+	<track trackName="G Crunch R" instrument="" channel="2">
+		<programChange time="0" number="11"/>
+		<controlChange time="0" control="10" value="96"/>
+		<controlChange time="0" control="7" value="50"/>
+		<controlChange time="0" control="80" value="43"/>
+		<controlChange time="0" control="81" value="87"/>
+		<controlChange time="0" control="82" value="0"/>
+		<controlChange time="0" control="83" value="0"/>
+		<controlChange time="0" control="84" value="0"/>
+		<controlChange time="0" control="85" value="127"/>
+		<controlChange time="0" control="86" value="0"/>
+		<controlChange time="0" control="87" value="0"/>
+		<sample time="4800" bank="0" type="selectA"/>
+		<sample time="4800" bank="0" type="record"/>
+		<sample time="6720" bank="0" type="play"/>
+		<sample time="6720" bank="0" type="stopRecord"/>
+		<sample time="8640" bank="0" type="stopPlay"/>
+		<sample time="66720" bank="1" type="selectA"/>
+		<sample time="66720" bank="1" type="record"/>
+		<sample time="68640" bank="1" type="play"/>
+		<sample time="68640" bank="1" type="stopRecord"/>
+		<sample time="70080" bank="1" type="stopPlay"/>
+	</track>
+	<track trackName="G Crunch S" instrument="" channel="3">
+		<programChange time="0" number="11"/>
+		<controlChange time="0" control="10" value="64"/>
+		<controlChange time="0" control="7" value="50"/>
+		<controlChange time="0" control="80" value="104"/>
+		<controlChange time="0" control="81" value="81"/>
+		<controlChange time="0" control="82" value="0"/>
+		<controlChange time="0" control="83" value="0"/>
+		<controlChange time="0" control="84" value="0"/>
+		<controlChange time="0" control="85" value="127"/>
+		<controlChange time="0" control="86" value="0"/>
+		<controlChange time="0" control="87" value="0"/>
+		<sample time="480" bank="0" type="selectA"/>
+		<sample time="960" bank="0" type="record"/>
+		<sample time="2880" bank="0" type="play"/>
+		<sample time="2880" bank="0" type="stopRecord"/>
+		<sample time="4800" bank="0" type="stopPlay"/>
+		<sample time="4800" bank="0" type="play"/>
+		<sample time="6720" bank="0" type="stopPlay"/>
+		<sample time="6720" bank="1" type="selectA"/>
+		<sample time="6720" bank="1" type="record"/>
+		<sample time="8640" bank="1" type="stopRecord"/>
+		<sample time="30960" bank="2" type="selectA"/>
+		<sample time="30960" bank="2" type="record"/>
+		<sample time="34080" bank="2" type="stopRecord"/>
+		<sample time="36600" bank="3" type="selectA"/>
+		<sample time="37440" bank="3" type="record"/>
+		<sample time="39120" bank="3" type="play"/>
+		<sample time="39120" bank="3" type="stopRecord"/>
+		<sample time="40800" bank="3" type="stopPlay"/>
+		<sample time="40800" bank="3" type="play"/>
+		<sample time="42480" bank="3" type="stopPlay"/>
+		<sample time="42480" bank="3" type="play"/>
+		<sample time="44160" bank="3" type="stopPlay"/>
+		<sample time="44160" bank="3" type="play"/>
+		<sample time="45840" bank="3" type="stopPlay"/>
+		<sample time="45840" bank="3" type="play"/>
+		<sample time="47520" bank="3" type="stopPlay"/>
+		<sample time="50640" bank="2" type="play"/>
+		<sample time="53760" bank="2" type="stopPlay"/>
+		<sample time="66720" bank="0" type="play"/>
+		<sample time="68640" bank="0" type="stopPlay"/>
+		<sample time="68640" bank="0" type="play"/>
+		<sample time="70080" bank="0" type="stopPlay"/>
+	</track>
+	<track trackName="G Clean L" instrument="" channel="4">
+		<programChange time="0" number="1"/>
+		<controlChange time="0" control="10" value="32"/>
+		<controlChange time="0" control="7" value="127"/>
+		<controlChange time="0" control="80" value="64"/>
+		<controlChange time="0" control="81" value="75"/>
+		<controlChange time="0" control="82" value="0"/>
+		<controlChange time="0" control="83" value="0"/>
+		<controlChange time="0" control="84" value="0"/>
+		<controlChange time="0" control="85" value="127"/>
+		<controlChange time="0" control="86" value="0"/>
+		<controlChange time="0" control="87" value="0"/>
+		<sample time="24720" bank="0" type="selectA"/>
+		<sample time="24720" bank="0" type="record"/>
+		<sample time="30960" bank="0" type="stopRecord"/>
+		<sample time="34080" bank="1" type="selectA"/>
+		<sample time="34080" bank="1" type="record"/>
+		<sample time="37440" bank="1" type="stopRecord"/>
+		<sample time="53760" bank="2" type="selectA"/>
+		<sample time="53760" bank="2" type="record"/>
+		<sample time="57120" bank="2" type="stopRecord"/>
+		<sample time="60480" bank="3" type="selectA"/>
+		<sample time="60480" bank="3" type="record"/>
+		<sample time="66720" bank="3" type="stopRecord"/>
+	</track>
+	<track trackName="G Clean R" instrument="" channel="5">
+		<programChange time="0" number="1"/>
+		<controlChange time="0" control="10" value="96"/>
+		<controlChange time="0" control="7" value="127"/>
+		<controlChange time="0" control="80" value="64"/>
+		<controlChange time="0" control="81" value="77"/>
+		<controlChange time="0" control="82" value="0"/>
+		<controlChange time="0" control="83" value="0"/>
+		<controlChange time="0" control="84" value="0"/>
+		<controlChange time="0" control="85" value="127"/>
+		<controlChange time="0" control="86" value="0"/>
+		<controlChange time="0" control="87" value="0"/>
+		<sample time="16920" bank="0" type="selectA"/>
+		<sample time="16920" bank="0" type="record"/>
+		<sample time="21600" bank="0" type="stopRecord"/>
+		<sample time="24720" bank="1" type="selectA"/>
+		<sample time="24720" bank="1" type="record"/>
+		<sample time="24720" bank="1" type="play"/>
+		<sample time="27840" bank="1" type="stopRecord"/>
+		<sample time="30960" bank="1" type="stopPlay"/>
+		<!-- WTF? none of this belongs here
+      <sample time="36600" bank="1" type="selectA"/>          
+      <sample time="37440" bank="0" type="record"/>                                      
+      <sample time="39120" bank="0" type="stopRecord"/>                                            
+      <sample time="39120" bank="0" type="play"/>                                      
+      <sample time="40800" bank="0" type="stopPlay"/>                                            
+      <sample time="40800" bank="0" type="play"/>                                      
+      <sample time="42480" bank="0" type="stopPlay"/>                                            
+      <sample time="42480" bank="0" type="play"/>                                      
+      <sample time="44160" bank="0" type="stopPlay"/>                                            
+      <sample time="44160" bank="0" type="play"/>                                      
+      <sample time="45840" bank="0" type="stopPlay"/>                                            
+      <sample time="45840" bank="0" type="play"/>                                      
+      <sample time="47520" bank="0" type="stopPlay"/>                                            
+-->
+		<sample time="60480" bank="1" type="play"/>
+		<sample time="63600" bank="1" type="stopPlay"/>
+		<sample time="63600" bank="1" type="play"/>
+		<sample time="66720" bank="1" type="stopPlay"/>
+	</track>
+	<track trackName="G Clean S" instrument="" channel="6">
+		<programChange time="0" number="1"/>
+		<controlChange time="0" control="10" value="64"/>
+		<controlChange time="0" control="7" value="127"/>
+		<controlChange time="0" control="80" value="64"/>
+		<controlChange time="0" control="81" value="81"/>
+		<controlChange time="0" control="82" value="0"/>
+		<controlChange time="0" control="83" value="0"/>
+		<controlChange time="0" control="84" value="0"/>
+		<controlChange time="0" control="85" value="127"/>
+		<controlChange time="0" control="86" value="0"/>
+		<controlChange time="0" control="87" value="0"/>
+		<sample time="8160" bank="0" type="selectA"/>
+		<sample time="8640" bank="0" type="record"/>
+		<sample time="10320" bank="0" type="play"/>
+		<sample time="10320" bank="0" type="stopRecord"/>
+		<sample time="12000" bank="0" type="stopPlay"/>
+		<sample time="12000" bank="0" type="play"/>
+		<sample time="13680" bank="0" type="stopPlay"/>
+		<sample time="13680" bank="0" type="play"/>
+		<sample time="15360" bank="0" type="stopPlay"/>
+		<sample time="15360" bank="1" type="selectA"/>
+		<sample time="15360" bank="1" type="record"/>
+		<sample time="16920" bank="1" type="play"/>
+		<sample time="16920" bank="1" type="stopRecord"/>
+		<sample time="18480" bank="1" type="stopPlay"/>
+		<sample time="18480" bank="1" type="play"/>
+		<sample time="20040" bank="1" type="stopPlay"/>
+		<sample time="20040" bank="1" type="play"/>
+		<sample time="21600" bank="1" type="stopPlay"/>
+		<sample time="21600" bank="1" type="play"/>
+		<sample time="23160" bank="1" type="stopPlay"/>
+		<sample time="23160" bank="1" type="play"/>
+		<sample time="24720" bank="1" type="stopPlay"/>
+		<sample time="24720" bank="1" type="play"/>
+		<sample time="26280" bank="1" type="stopPlay"/>
+		<sample time="26280" bank="1" type="play"/>
+		<sample time="27840" bank="1" type="stopPlay"/>
+		<sample time="27840" bank="1" type="play"/>
+		<sample time="29400" bank="1" type="stopPlay"/>
+		<sample time="29400" bank="1" type="play"/>
+		<sample time="30960" bank="1" type="stopPlay"/>
+		<sample time="30960" bank="1" type="play"/>
+		<sample time="32520" bank="1" type="stopPlay"/>
+		<sample time="32520" bank="1" type="play"/>
+		<sample time="34080" bank="1" type="stopPlay"/>
+		<sample time="34080" bank="0" type="play"/>
+		<sample time="35760" bank="0" type="stopPlay"/>
+		<sample time="35760" bank="0" type="play"/>
+		<sample time="37440" bank="0" type="stopPlay"/>
+		<sample time="37440" bank="0" type="play"/>
+		<sample time="39120" bank="0" type="stopPlay"/>
+		<sample time="39120" bank="0" type="play"/>
+		<sample time="40800" bank="0" type="stopPlay"/>
+		<sample time="40800" bank="0" type="play"/>
+		<sample time="42480" bank="0" type="stopPlay"/>
+		<sample time="42480" bank="0" type="play"/>
+		<sample time="44160" bank="0" type="stopPlay"/>
+		<sample time="44160" bank="0" type="play"/>
+		<sample time="45840" bank="0" type="stopPlay"/>
+		<sample time="45840" bank="0" type="play"/>
+		<sample time="47520" bank="0" type="stopPlay"/>
+		<sample time="47520" bank="1" type="play"/>
+		<sample time="49080" bank="1" type="stopPlay"/>
+		<sample time="49080" bank="1" type="play"/>
+		<sample time="50640" bank="1" type="stopPlay"/>
+		<sample time="50640" bank="1" type="play"/>
+		<sample time="52200" bank="1" type="stopPlay"/>
+		<sample time="52200" bank="1" type="play"/>
+		<sample time="53760" bank="1" type="stopPlay"/>
+		<sample time="53760" bank="0" type="play"/>
+		<sample time="55440" bank="0" type="stopPlay"/>
+		<sample time="55440" bank="0" type="play"/>
+		<sample time="57120" bank="0" type="stopPlay"/>
+		<sample time="57120" bank="0" type="play"/>
+		<sample time="58800" bank="0" type="stopPlay"/>
+		<sample time="58800" bank="0" type="play"/>
+		<sample time="60480" bank="0" type="stopPlay"/>
+		<sample time="60480" bank="1" type="play"/>
+		<sample time="62040" bank="1" type="stopPlay"/>
+		<sample time="62040" bank="1" type="play"/>
+		<sample time="63600" bank="1" type="stopPlay"/>
+		<sample time="63600" bank="1" type="play"/>
+		<sample time="65160" bank="1" type="stopPlay"/>
+		<sample time="65160" bank="1" type="play"/>
+		<sample time="66720" bank="1" type="stopPlay"/>
+	</track>
+	<track trackName="G Lead C" instrument="" channel="7">
+		<programChange time="0" number="21"/>
+		<controlChange time="0" control="10" value="64"/>
+		<controlChange time="0" control="7" value="67"/>
+		<controlChange time="0" control="80" value="83"/>
+		<controlChange time="0" control="81" value="90"/>
+		<controlChange time="0" control="82" value="0"/>
+		<controlChange time="0" control="83" value="0"/>
+		<controlChange time="0" control="84" value="0"/>
+		<controlChange time="0" control="85" value="127"/>
+		<controlChange time="0" control="86" value="0"/>
+		<controlChange time="0" control="87" value="0"/>
+		<!--      
+      <sample time="33960" bank="0" type="selectA"/>       
+-->
+		<sample time="39120" bank="0" type="selectA"/>
+		<sample time="40800" bank="0" type="record"/>
+		<!--      
+      <sample time="42480" bank="0" type="stopRecord"/>                                            
+-->
+		<sample time="56280" bank="3" type="selectA"/>
+		<sample time="57120" bank="3" type="record"/>
+		<sample time="60480" bank="3" type="stopRecord"/>
+	</track>
+	<track trackName="G Lead L" instrument="" channel="8">
+		<programChange time="0" number="21"/>
+		<controlChange time="0" control="10" value="32"/>
+		<controlChange time="0" control="7" value="50"/>
+		<controlChange time="0" control="80" value="64"/>
+		<controlChange time="0" control="81" value="64"/>
+		<controlChange time="0" control="82" value="0"/>
+		<controlChange time="0" control="83" value="0"/>
+		<controlChange time="0" control="84" value="0"/>
+		<controlChange time="0" control="85" value="127"/>
+		<controlChange time="0" control="86" value="0"/>
+		<controlChange time="0" control="87" value="0"/>
+		<sample time="10320" bank="0" type="selectA"/>
+		<sample time="11160" bank="0" type="selectA"/>
+		<sample time="12000" bank="0" type="record"/>
+		<sample time="13680" bank="0" type="play"/>
+		<sample time="13680" bank="0" type="stopRecord"/>
+		<sample time="15360" bank="0" type="stopPlay"/>
+		<sample time="21600" bank="1" type="selectA"/>
+		<sample time="21600" bank="1" type="record"/>
+		<sample time="23160" bank="1" type="play"/>
+		<sample time="23160" bank="1" type="stopRecord"/>
+		<sample time="24720" bank="1" type="stopPlay"/>
+	</track>
+	<track trackName="G Lead R" instrument="" channel="9">
+		<programChange time="0" number="21"/>
+		<controlChange time="0" control="10" value="96"/>
+		<controlChange time="0" control="7" value="50"/>
+		<controlChange time="0" control="80" value="64"/>
+		<controlChange time="0" control="81" value="64"/>
+		<controlChange time="0" control="82" value="0"/>
+		<controlChange time="0" control="83" value="0"/>
+		<controlChange time="0" control="84" value="0"/>
+		<controlChange time="0" control="85" value="127"/>
+		<controlChange time="0" control="86" value="0"/>
+		<controlChange time="0" control="87" value="0"/>
+		<sample time="13680" bank="0" type="selectA"/>
+		<sample time="13680" bank="0" type="record"/>
+		<sample time="15360" bank="0" type="stopRecord"/>
+		<sample time="23160" bank="1" type="selectA"/>
+		<sample time="23160" bank="1" type="record"/>
+		<sample time="24720" bank="1" type="stopRecord"/>
+	</track>
+	<track trackName="Drums" instrument="" channel="10">
+                <patterns>
+                    <pattern channel="10" id="gtest" length="480">
+                            <note time="0" note="42" velocity="127"/>
+                            <note time="240" note="42" velocity="80"/>
+                    </pattern>
+                    <pattern channel="10" id="gintro" length="480">
+                            <note time="0" note="42" velocity="127"/>
+                            <note time="120" note="42" velocity="80"/>
+                            <note time="240" note="42" velocity="80"/>
+                            <note time="360" note="42" velocity="80"/>
+                    </pattern>
+                    <pattern channel="10" id="g1" length="840">
+                            <note time="0" note="36" velocity="127"/>
+                            <note time="0" note="42" velocity="127"/>
+                            <note time="120" note="38" velocity="127"/>
+                            <note time="120" note="42" velocity="127"/>
+                            <note time="240" note="36" velocity="127"/>
+                            <note time="240" note="42" velocity="127"/>
+                            <note time="330" note="38" velocity="127"/>
+                            <note time="330" note="42" velocity="127"/>
+                            <note time="420" note="36" velocity="127"/>
+                            <note time="420" note="42" velocity="127"/>
+                            <note time="540" note="38" velocity="127"/>
+                            <note time="540" note="42" velocity="127"/>
+                            <note time="660" note="36" velocity="127"/>
+                            <note time="660" note="42" velocity="127"/>
+                            <note time="750" note="38" velocity="127"/>
+                            <note time="750" note="42" velocity="127"/>
+                    </pattern>
+                    <pattern channel="10" id="g2" length="480">
+                            <note time="0" note="36" velocity="127"/>
+                            <note time="0" note="42" velocity="127"/>
+                            <note time="120" note="38" velocity="127"/>
+                            <note time="120" note="42" velocity="127"/>
+                            <note time="240" note="36" velocity="127"/>
+                            <note time="240" note="42" velocity="127"/>
+                            <note time="360" note="38" velocity="127"/>
+                            <note time="360" note="42" velocity="127"/>
+                    </pattern>
+                    <pattern channel="10" id="g3" length="360">
+                            <note time="0" note="36" velocity="127"/>
+                            <note time="0" note="42" velocity="127"/>
+                            <note time="120" note="42" velocity="127"/>
+                            <note time="240" note="38" velocity="127"/>
+                            <note time="240" note="42" velocity="127"/>
+                    </pattern>
+                    <pattern channel="10" id="g4" length="480">
+                            <note time="0" note="36" velocity="127"/>
+                            <note time="0" note="42" velocity="127"/>
+                            <note time="120" note="42" velocity="127"/>
+                            <note time="240" note="38" velocity="127"/>
+                            <note time="240" note="42" velocity="127"/>
+                            <note time="360" note="36" velocity="127"/>
+                            <note time="360" note="42" velocity="127"/>
+                    </pattern>
+                </patterns>
+		<controlChange time="0" control="10" value="64"/>
+		<controlChange time="0" control="7" value="100"/>
+		<controlChange time="0" control="80" value="64"/>
+		<controlChange time="0" control="81" value="64"/>
+		<controlChange time="0" control="82" value="0"/>
+		<controlChange time="0" control="83" value="0"/>
+		<controlChange time="0" control="84" value="127"/>
+		<controlChange time="0" control="85" value="0"/>
+		<controlChange time="0" control="86" value="0"/>
+		<controlChange time="0" control="87" value="0"/>
+		<!-- bar 0 -->
+		<timeSig time="0" numerator="4" denominator="4"/>
+<!--
+		<tempo time="0" beatLength="400000"/>
+-->
+		<usepattern time="0" xlink:href="#gintro"/>
+		<usepattern time="480" xlink:href="#gintro"/>
+		<usepattern time="960" xlink:href="#g2"/>
+		<usepattern time="1440" xlink:href="#g2"/>
+		<usepattern time="1920" xlink:href="#g2"/>
+		<usepattern time="2400" xlink:href="#g2"/>
+		<usepattern time="2880" xlink:href="#g2"/>
+		<usepattern time="3360" xlink:href="#g2"/>
+		<usepattern time="3840" xlink:href="#g2"/>
+		<usepattern time="4320" xlink:href="#g2"/>
+		<usepattern time="4800" xlink:href="#g2"/>
+		<usepattern time="5280" xlink:href="#g2"/>
+		<usepattern time="5760" xlink:href="#g2"/>
+		<usepattern time="6240" xlink:href="#g2"/>
+		<usepattern time="6720" xlink:href="#g2"/>
+		<usepattern time="7200" xlink:href="#g2"/>
+		<usepattern time="7680" xlink:href="#g2"/>
+		<usepattern time="8160" xlink:href="#g2"/>
+		<!-- bar 18 -->
+		<timeSig time="8640" numerator="7" denominator="4"/>
+		<usepattern time="8640" xlink:href="#g1"/>
+		<usepattern time="9480" xlink:href="#g1"/>
+		<usepattern time="10320" xlink:href="#g1"/>
+		<usepattern time="11160" xlink:href="#g1"/>
+		<usepattern time="12000" xlink:href="#g1"/>
+		<usepattern time="12840" xlink:href="#g1"/>
+		<usepattern time="13680" xlink:href="#g1"/>
+		<usepattern time="14520" xlink:href="#g1"/>
+		<!-- bar 26 -->
+		<timeSig time="15360" numerator="3" denominator="4"/>
+		<usepattern time="15360" xlink:href="#g3"/>
+		<usepattern time="15720" xlink:href="#g3"/>
+		<usepattern time="16080" xlink:href="#g3"/>
+		<timeSig time="16440" numerator="4" denominator="4"/>
+		<usepattern time="16440" xlink:href="#g4"/>
+		<!-- bar 30 -->
+		<timeSig time="16920" numerator="3" denominator="4"/>
+		<usepattern time="16920" xlink:href="#g3"/>
+		<usepattern time="17280" xlink:href="#g3"/>
+		<usepattern time="17640" xlink:href="#g3"/>
+		<timeSig time="18000" numerator="4" denominator="4"/>
+		<usepattern time="18000" xlink:href="#g4"/>
+		<!-- bar 34 -->
+		<timeSig time="18480" numerator="3" denominator="4"/>
+		<usepattern time="18480" xlink:href="#g3"/>
+		<usepattern time="18840" xlink:href="#g3"/>
+		<usepattern time="19200" xlink:href="#g3"/>
+		<timeSig time="19560" numerator="4" denominator="4"/>
+		<usepattern time="19560" xlink:href="#g4"/>
+		<!-- bar 38 -->
+		<timeSig time="20040" numerator="3" denominator="4"/>
+		<usepattern time="20040" xlink:href="#g3"/>
+		<usepattern time="20400" xlink:href="#g3"/>
+		<usepattern time="20760" xlink:href="#g3"/>
+		<timeSig time="21120" numerator="4" denominator="4"/>
+		<usepattern time="21120" xlink:href="#g4"/>
+		<!-- bar 42 -->
+		<timeSig time="21600" numerator="3" denominator="4"/>
+		<usepattern time="21600" xlink:href="#g3"/>
+		<usepattern time="21960" xlink:href="#g3"/>
+		<usepattern time="22320" xlink:href="#g3"/>
+		<timeSig time="22680" numerator="4" denominator="4"/>
+		<usepattern time="22680" xlink:href="#g4"/>
+		<!-- bar 46 -->
+		<timeSig time="23160" numerator="3" denominator="4"/>
+		<usepattern time="23160" xlink:href="#g3"/>
+		<usepattern time="23520" xlink:href="#g3"/>
+		<usepattern time="23880" xlink:href="#g3"/>
+		<timeSig time="24240" numerator="4" denominator="4"/>
+		<usepattern time="24240" xlink:href="#g4"/>
+		<!-- bar 50 -->
+		<timeSig time="24720" numerator="3" denominator="4"/>
+		<usepattern time="24720" xlink:href="#g3"/>
+		<usepattern time="25080" xlink:href="#g3"/>
+		<usepattern time="25440" xlink:href="#g3"/>
+		<timeSig time="25800" numerator="4" denominator="4"/>
+		<usepattern time="25800" xlink:href="#g4"/>
+		<!-- bar 54 -->
+		<timeSig time="26280" numerator="3" denominator="4"/>
+		<usepattern time="26280" xlink:href="#g3"/>
+		<usepattern time="26640" xlink:href="#g3"/>
+		<usepattern time="27000" xlink:href="#g3"/>
+		<timeSig time="27360" numerator="4" denominator="4"/>
+		<usepattern time="27360" xlink:href="#g4"/>
+		<!-- bar 58 -->
+		<timeSig time="27840" numerator="3" denominator="4"/>
+		<usepattern time="27840" xlink:href="#g3"/>
+		<usepattern time="28200" xlink:href="#g3"/>
+		<usepattern time="28560" xlink:href="#g3"/>
+		<timeSig time="28920" numerator="4" denominator="4"/>
+		<usepattern time="28920" xlink:href="#g4"/>
+		<!-- bar 62 -->
+		<timeSig time="29400" numerator="3" denominator="4"/>
+		<usepattern time="29400" xlink:href="#g3"/>
+		<usepattern time="29760" xlink:href="#g3"/>
+		<usepattern time="30120" xlink:href="#g3"/>
+		<timeSig time="30480" numerator="4" denominator="4"/>
+		<usepattern time="30480" xlink:href="#g4"/>
+		<!-- bar 66 -->
+		<timeSig time="30960" numerator="3" denominator="4"/>
+		<usepattern time="30960" xlink:href="#g3"/>
+		<usepattern time="31320" xlink:href="#g3"/>
+		<usepattern time="31680" xlink:href="#g3"/>
+		<timeSig time="32040" numerator="4" denominator="4"/>
+		<usepattern time="32040" xlink:href="#g4"/>
+		<!-- bar 70 -->
+		<timeSig time="32520" numerator="3" denominator="4"/>
+		<usepattern time="32520" xlink:href="#g3"/>
+		<usepattern time="32880" xlink:href="#g3"/>
+		<usepattern time="33240" xlink:href="#g3"/>
+		<timeSig time="33600" numerator="4" denominator="4"/>
+		<usepattern time="33600" xlink:href="#g4"/>
+		<!-- bar 74 -->
+		<timeSig time="34080" numerator="7" denominator="4"/>
+		<usepattern time="34080" xlink:href="#g1"/>
+		<usepattern time="34920" xlink:href="#g1"/>
+		<usepattern time="35760" xlink:href="#g1"/>
+		<usepattern time="36600" xlink:href="#g1"/>
+		<usepattern time="37440" xlink:href="#g1"/>
+		<usepattern time="38280" xlink:href="#g1"/>
+		<usepattern time="39120" xlink:href="#g1"/>
+		<usepattern time="39960" xlink:href="#g1"/>
+		<usepattern time="40800" xlink:href="#g1"/>
+		<usepattern time="41640" xlink:href="#g1"/>
+		<usepattern time="42480" xlink:href="#g1"/>
+		<usepattern time="43320" xlink:href="#g1"/>
+		<usepattern time="44160" xlink:href="#g1"/>
+		<usepattern time="45000" xlink:href="#g1"/>
+		<usepattern time="45840" xlink:href="#g1"/>
+		<usepattern time="46680" xlink:href="#g1"/>
+		<!-- bar 90 -->
+		<timeSig time="47520" numerator="3" denominator="4"/>
+		<usepattern time="47520" xlink:href="#g3"/>
+		<usepattern time="47880" xlink:href="#g3"/>
+		<usepattern time="48240" xlink:href="#g3"/>
+		<timeSig time="48600" numerator="4" denominator="4"/>
+		<usepattern time="48600" xlink:href="#g4"/>
+		<!-- bar 94 -->
+		<timeSig time="49080" numerator="3" denominator="4"/>
+		<usepattern time="49080" xlink:href="#g3"/>
+		<usepattern time="49440" xlink:href="#g3"/>
+		<usepattern time="49800" xlink:href="#g3"/>
+		<timeSig time="50160" numerator="4" denominator="4"/>
+		<usepattern time="50160" xlink:href="#g4"/>
+		<!-- bar 98 -->
+		<timeSig time="50640" numerator="3" denominator="4"/>
+		<usepattern time="50640" xlink:href="#g3"/>
+		<usepattern time="51000" xlink:href="#g3"/>
+		<usepattern time="51360" xlink:href="#g3"/>
+		<timeSig time="51720" numerator="4" denominator="4"/>
+		<usepattern time="51720" xlink:href="#g4"/>
+		<!-- bar 102 -->
+		<timeSig time="52200" numerator="3" denominator="4"/>
+		<usepattern time="52200" xlink:href="#g3"/>
+		<usepattern time="52560" xlink:href="#g3"/>
+		<usepattern time="52920" xlink:href="#g3"/>
+		<usepattern time="53280" xlink:href="#g4"/>
+		<!-- bar 106 -->
+		<timeSig time="53760" numerator="7" denominator="4"/>
+		<usepattern time="53760" xlink:href="#g1"/>
+		<usepattern time="54600" xlink:href="#g1"/>
+		<usepattern time="55440" xlink:href="#g1"/>
+		<usepattern time="56280" xlink:href="#g1"/>
+		<usepattern time="57120" xlink:href="#g1"/>
+		<usepattern time="57960" xlink:href="#g1"/>
+		<usepattern time="58800" xlink:href="#g1"/>
+		<usepattern time="59640" xlink:href="#g1"/>
+		<!-- bar 114 -->
+		<timeSig time="60480" numerator="3" denominator="4"/>
+		<usepattern time="60480" xlink:href="#g3"/>
+		<usepattern time="60840" xlink:href="#g3"/>
+		<usepattern time="61200" xlink:href="#g3"/>
+		<timeSig time="61560" numerator="4" denominator="4"/>
+		<usepattern time="61560" xlink:href="#g4"/>
+		<!-- bar 118 -->
+		<timeSig time="62040" numerator="3" denominator="4"/>
+		<usepattern time="62040" xlink:href="#g3"/>
+		<usepattern time="62400" xlink:href="#g3"/>
+		<usepattern time="62760" xlink:href="#g3"/>
+		<timeSig time="63120" numerator="4" denominator="4"/>
+		<usepattern time="63120" xlink:href="#g4"/>
+		<!-- bar 122 -->
+		<timeSig time="63600" numerator="3" denominator="4"/>
+		<usepattern time="63600" xlink:href="#g3"/>
+		<usepattern time="63960" xlink:href="#g3"/>
+		<usepattern time="64320" xlink:href="#g3"/>
+		<timeSig time="64680" numerator="4" denominator="4"/>
+		<usepattern time="64680" xlink:href="#g4"/>
+		<!-- bar 126 -->
+		<timeSig time="65160" numerator="3" denominator="4"/>
+		<usepattern time="65160" xlink:href="#g3"/>
+		<usepattern time="65520" xlink:href="#g3"/>
+		<usepattern time="65880" xlink:href="#g3"/>
+		<timeSig time="66240" numerator="4" denominator="4"/>
+		<usepattern time="66240" xlink:href="#g4"/>
+		<!-- bar 130 -->
+		<usepattern time="66720" xlink:href="#g2"/>
+		<usepattern time="67200" xlink:href="#g2"/>
+		<usepattern time="67680" xlink:href="#g2"/>
+		<usepattern time="68160" xlink:href="#g2"/>
+		<usepattern time="68640" xlink:href="#g2"/>
+		<usepattern time="69120" xlink:href="#g2"/>
+		<usepattern time="69600" xlink:href="#g2"/>
+		<usepattern time="70080" xlink:href="#g2"/>
+	</track>
+	<track trackName="." instrument="" channel="11"/>
+	<track trackName="." instrument="" channel="12"/>
+	<track trackName="Vocals" instrument="" channel="13">
+		<controlChange time="0" control="10" value="64"/>
+		<controlChange time="0" control="7" value="75"/>
+		<controlChange time="0" control="80" value="113"/>
+		<controlChange time="0" control="81" value="49"/>
+		<controlChange time="0" control="82" value="127"/>
+		<controlChange time="0" control="83" value="0"/>
+		<controlChange time="0" control="84" value="127"/>
+		<controlChange time="0" control="85" value="0"/>
+		<controlChange time="0" control="86" value="0"/>
+		<controlChange time="0" control="87" value="0"/>
+		<sample time="480" bank="0" type="selectB"/>
+		<sample time="15360" bank="0" type="record"/>
+		<sample time="21600" bank="0" type="stopRecord"/>
+		<sample time="24720" bank="1" type="record"/>
+		<sample time="30960" bank="1" type="stopRecord"/>
+		<sample time="60360" bank="2" type="record"/>
+		<sample time="66600" bank="2" type="stopRecord"/>
+	</track>
+	<track trackName="Monitor" instrument="" channel="14">
+		<controlChange time="0" control="10" value="0"/>
+		<controlChange time="0" control="7" value="0"/>
+		<controlChange time="0" control="80" value="0"/>
+		<controlChange time="0" control="81" value="0"/>
+		<controlChange time="0" control="82" value="0"/>
+		<controlChange time="0" control="83" value="0"/>
+		<controlChange time="0" control="84" value="0"/>
+		<controlChange time="0" control="85" value="0"/>
+		<controlChange time="0" control="86" value="0"/>
+		<controlChange time="0" control="87" value="0"/>
+	</track>
+	<track trackName="Reverb" instrument="" channel="15">
+		<controlChange time="0" control="10" value="64"/>
+		<controlChange time="0" control="7" value="100"/>
+		<controlChange time="0" control="80" value="64"/>
+		<controlChange time="0" control="81" value="64"/>
+		<controlChange time="0" control="82" value="0"/>
+		<controlChange time="0" control="83" value="0"/>
+		<controlChange time="0" control="84" value="28"/>
+		<controlChange time="0" control="85" value="0"/>
+		<controlChange time="0" control="86" value="0"/>
+		<controlChange time="0" control="87" value="0"/>
+	</track>
+</xmidi>

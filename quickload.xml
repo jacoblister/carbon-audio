@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<quickload>
+   <quickloadfile filename="acoustic.xmi" number="1"/>
+   <quickloadfile filename="clean.xmi" number="2"/>   
+   <quickloadfile filename="emptyframe.xmi" number="4"/>
+   <quickloadfile filename="crossing.xmi" number="3"/>
+   <quickloadfile filename="nothing.xmi" number="5"/>
+   <quickloadfile filename="killer.xmi" number="6"/>   
+   <quickloadfile filename="voices2.xmi" number="7"/>      
+   <quickloadfile filename="bark.xmi" number="8"/>   
+   <quickloadfile filename="pullmeunder.xmi" number="9"/>
+
+   <quickloadfile filename="trigdrum.xmi" number="30"/>
+   <quickloadfile filename="trigdrum2.xmi" number="31"/>   
+   <quickloadfile filename="trigbass.xmi" number="32"/>   
+   <quickloadfile filename="trigpiano.xmi" number="33"/>   
+   <quickloadfile filename="trigstring.xmi" number="34"/>      
+   <quickloadfile filename="sampler.xmi" number="35"/>
+</quickload>

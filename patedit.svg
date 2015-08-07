@@ -1,0 +1,75 @@
+<svg preserveAspectRatio="oneToOne" bgcolor="lightgrey">
+   <xul:vbox>
+      <svg height="28" bgcolor="lightsteelblue">
+         <text fill="black" font-size="22" font-family="Arial" x="55" y="14" text-anchor="end" dominant-baseline="central">Track</text>
+         <xul:textbox x="60" y="2" width="30" height="22"/>
+         <text fill="black" font-size="22" font-family="Arial" x="195" y="14" text-anchor="end" dominant-baseline="central">Pattern</text>
+         <xul:textbox x="200" y="2" width="30" height="22"/>
+         <xul:button x="260" y="2" width="60" height="22" label="create" disabled="true"/>
+         <xul:button x="320" y="2" width="60" height="22" label="delete"/>         
+         <text fill="black" font-size="22" font-family="Arial" x="495" y="14" text-anchor="end" dominant-baseline="central">Length</text>
+         <xul:textbox x="500" y="2" width="30" height="22"/>
+      </svg>
+      <xul:hbox height="22">
+         <xul:togglebutton label="S" width="20" binding="/carbon/sequencer/seqedit[1]/@select"/>
+         <xul:togglebutton label="D" width="20" binding="/carbon/sequencer/seqedit[1]/@draw"/>         
+         <svg:seqtime bgcolor="none"/>         
+      </xul:hbox>
+      <xul:hbox>
+         <svg width="40">
+            <defs>
+               <symbol id="keys">
+                   <rect stroke="black" fill="white" x="0" y="0" width="39" height="27"/>
+                   <rect stroke="black" fill="white" x="0" y="27" width="39" height="27"/>
+                   <rect stroke="black" fill="white" x="0" y="54" width="39" height="28"/>
+                   <rect stroke="black" fill="white" x="0" y="82" width="39" height="27"/>
+                   <rect stroke="black" fill="white" x="0" y="109" width="39" height="28"/>                   
+                   <rect stroke="black" fill="white" x="0" y="137" width="39" height="27"/>                   
+                   <rect stroke="black" fill="white" x="0" y="164" width="39" height="28"/>                   
+                   
+                   <rect stroke="none" fill="black" x="0" y="21" width="24" height="11"/>
+                   <rect stroke="none" fill="black" x="0" y="48" width="24" height="11"/>                   
+                   <rect stroke="none" fill="black" x="0" y="76" width="24" height="11"/>
+                   <rect stroke="none" fill="black" x="0" y="131" width="24" height="11"/>
+                   <rect stroke="none" fill="black" x="0" y="158" width="24" height="11"/>
+                   
+                   <rect stroke="none" fill="white" x="5" y="-2" width="25" height="4"/>
+               </symbol>
+            </defs>
+            <g transform="translate(0,0)">
+               <bind attributeName="transform[0].1" binding="neg(/carbon/sequencer/seqedit[1]/@notePos *16)"/>
+               <array elements="11" xlink:href="#keys" spacingY="192"/>
+               <text font-size="12" font-family="Arial" x="6" y="0" dominant-baseline="middle">C-11</text>
+               <text font-size="12" font-family="Arial" x="6" y="192" dominant-baseline="middle">C-10</text>               
+               <text font-size="12" font-family="Arial" x="6" y="384" dominant-baseline="middle">C-9</text>
+               <text font-size="12" font-family="Arial" x="6" y="576" dominant-baseline="middle">C-8</text>               
+               <text font-size="12" font-family="Arial" x="6" y="768" dominant-baseline="middle">C-7</text>
+               <text font-size="12" font-family="Arial" x="6" y="960" dominant-baseline="middle">C-6</text>               
+               <text font-size="12" font-family="Arial" x="6" y="1152" dominant-baseline="middle">C-5</text>
+               <text font-size="12" font-family="Arial" x="6" y="1344" dominant-baseline="middle">C-4</text>               
+               <text font-size="12" font-family="Arial" x="6" y="1536" dominant-baseline="middle">C-3</text>
+               <text font-size="12" font-family="Arial" x="6" y="1728" dominant-baseline="middle">C-2</text>               
+               <text font-size="12" font-family="Arial" x="6" y="1920" dominant-baseline="middle">C-1</text>
+               <text font-size="12" font-family="Arial" x="6" y="2112" dominant-baseline="middle">C-0</text>               
+            </g>      
+         </svg>
+         <svg:seqedit bgcolor="none"/>
+         <xul:vbox width="16">
+            <xul:scrollbar binding="/carbon/sequencer/seqedit[1]/@notePos" orient="vertical" curpos="0" maxpos="64" range="128">      
+               <bind attributeName="maxpos" binding="/carbon/sequencer/seqedit[1]/@noteHidden"/>
+            </xul:scrollbar>
+            <xul:button label="I" height="20"/>               
+            <xul:button label="O" height="20"/>         
+         </xul:vbox>
+      </xul:hbox>
+
+      <xul:hbox height="16">
+         <xul:scrollbar binding="/carbon/sequencer/seqedit[1]/@timePos" curpos="0" maxpos="100" range="200" orient="horizontal">
+            <bind attributeName="maxpos" binding="/carbon/sequencer/seqedit[1]/@timeHidden"/>
+            <bind attributeName="range" binding="/carbon/sequencer/seqedit[1]/@timeMax"/>          
+         </xul:scrollbar>
+         <xul:button label="I" width="16" binding="/carbon/sequencer/seqedit[1]/@zoom=1"/>         
+         <xul:button label="O" width="16" binding="/carbon/sequencer/seqedit[1]/@zoom=-1"/>
+      </xul:hbox>
+   </xul:vbox>
+</svg>

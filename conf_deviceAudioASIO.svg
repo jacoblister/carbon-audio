@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<svg>
+   <xul:vbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="device"/>
+         <xul:textbox binding="@deviceName"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="sampling rate"/>
+         <xul:textbox binding="@samplingRate" disabled="true"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="input channels"/>
+         <xul:textbox binding="@channelsIn" disabled="true"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="output channels"/>
+         <xul:textbox binding="@channelsOut" disabled="true"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:text width="100" value="frame length"/>
+         <xul:textbox binding="@frameLength" disabled="true"/>
+      </xul:hbox>
+      <xul:hbox height="22">
+         <xul:button label="panel" binding="@panel"/>
+      </xul:hbox>
+   </xul:vbox>
+</svg>
